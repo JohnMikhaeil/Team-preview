@@ -1,0 +1,50 @@
+.tp_front_mainContainer{
+    background-color: #ebebeb;
+    padding: 13px;
+    border-radius: 5px;
+
+    .form-container form{
+        display: flex;
+        gap:20px;
+
+        .change-preview{
+            background: #2271b1;
+            border-color: #2271b1;
+            color: #fff;
+            text-decoration: none;
+            text-shadow: none;
+            font-size: 13px;
+            line-height: 2.15384615;
+            min-height: 30px;
+            margin: 0;
+            padding: 0 10px;
+            cursor: pointer;
+            border-width: 1px;
+            border-style: solid;
+            -webkit-appearance: none;
+            border-radius: 3px;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+    }
+
+    .content-container{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 20px;
+        column-gap: 20px;
+        align-items: center;
+
+
+        .content-container-image{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            min-height: 250px;
+        }
+        .content-container-text h5.title{
+            text-transform: uppercase;
+        }
+    }
+}
